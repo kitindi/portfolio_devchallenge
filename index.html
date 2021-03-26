@@ -2,94 +2,132 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,
-  maximum-scale=5"
-    />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=5"/>
     <link rel="icon" href="devchallenges.png" />
-
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-
+    <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/"/>
+    <!-- fontawesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./Styles.css">
     <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
+  <header>
+    <div class="container">
 
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
-      </div>
-
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
     </div>
+  </header>
+  <section class="hero">
+    <div class="container">
+      <div class="hero--content">
+          <div class="user-image">
+            <img src="./faface.jpg" alt="">
+          </div>
+          <div class="user-details">
+            <p class="name">Abdulaziz Sadi</p>
+            <p class="role">Front-end Developer</p>
+          </div>
+          <div class="user-contact">
+            <p><i class="fas fa-envelope"></i> info@webapps.com</p>
+            <p><i class="fas fa-phone-alt"></i> (+255) 675109401</p>
+          </div>
+          <div class="user-statement">
+            <p>Self-motivated developer, who is willing to learn and create outstanding UI applications. </p>
+            <p>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+            <!-- <p>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p> -->
+          </div>
+      </div>      
+    </div>
+  </section>
+  <section class="summary">
+    <div class="container">
+        <div class="skills">
+          <!-- React -->
+          <div class="skill">
+            <div class="skill-name">React</div>
+            <div class="progress-bar">
+              <div class="progress">
+                <div class="metre react"></div>
+              </div>
+            </div>
+          </div>
+          <!--  JavaScript-->
+          <div class="skill">
+            <div class="skill-name">JavaScript</div>
+            <div class="progress-bar">
+              <div class="progress">
+                <div class="metre javascript"></div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="skill">
+            <div class="skill-name">CSS</div>
+            <div class="progress-bar">
+              <div class="progress">
+                <div class="metre css"></div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="skill">
+            <div class="skill-name">Vue</div>
+            <div class="progress-bar">
+              <div class="progress">
+                <div class="metre vue"></div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="skill">
+            <div class="skill-name">Redux</div>
+            <div class="progress-bar">
+              <div class="progress">
+                <div class="metre redux"></div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="skill">
+            <div class="skill-name">React Native</div>
+            <div class="progress-bar">
+              <div class="progress">
+                <div class="metre react-native"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="blogs">
+          <p>Blog</p>
+          <div class="blog-grid">
+            <h3 class="blog-title">How to organize your CSS</h3>
+            <img src="./css.jpg" alt="">
+            <p>In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a
+            luctus mi.
+            
+            Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+          </div>
+        </div>
+        <div class="hobbies"></div>
+        <div class="experience"></div>   
+    </div>
+  </section>
+  <section class="hero">
+    <div class="container">
+  
+    </div>
+  </section>
+  <section class="hero">
+    <div class="container">
+  
+    </div>
+  </section>
+  <section class="hero">
+    <div class="container">
+  
+    </div>
+  </section>
   </body>
 </html>
